@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container-buttons{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color:  #ffbb00;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.productsList{
+    
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;    
+    
+}
+
+
+li{
+    border: 2px solid #ffffff;;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+        
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+h3{
+    color: #ffffff;
+}
+
+
+p{
+    font-weight: bold;
+    color: #ffbb00;  
+}
+
+.highlight {
+    color: red; /* Cor desejada quando o botão mapear é clicado */
+}
+
+/* border: 2px solid #8133ff;
+background-color:  #ffffff;
+color: #79cb15; */
