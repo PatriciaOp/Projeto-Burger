@@ -1,10 +1,6 @@
-//console.console.log(menuOptions);
+
 
 // desafio
-
-
-
-
 
 
 const showProducts = document.querySelector('.productsList')
@@ -76,6 +72,7 @@ function mostrarSoma() {
 }
 
 //filter somente os veganos 
+
 function filterVegan() {
   const filtrar = menuOptions.filter(products => products.vegan === true)
         

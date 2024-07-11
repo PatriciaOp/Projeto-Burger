@@ -28,6 +28,7 @@ button{
     cursor: pointer;
     font-weight: bold;
     width: 110px;
+    height:80px;
 
 }
 button:hover{
