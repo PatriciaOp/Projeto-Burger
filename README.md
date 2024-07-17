@@ -7,4 +7,4 @@
 Para concluir este desafio utilizei as tecnologias html, Css, JavaScript e também os métodos forEach() para mostrar todas as opções do cardápio, o map() para aplicar o desconto, 
 o reduce() para somar todos os valores e o filter() para filtrar as opções de hambúrgueres veganos.</h2>
 
-<img src=""/>
+<img src="https://github.com/PatriciaOp/Projeto-Burger/blob/main/assets/burger.png?raw=true"/>
